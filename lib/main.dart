@@ -53,6 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _incrementCounter() async {
+    /// TODO: create user using email & password
     auth.createUserWithEmailAndPassword(email: 'xxxx', password: 'xxxx');
   }
 
